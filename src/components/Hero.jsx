@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative z-10 text-center px-6 max-w-3xl">
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
           className="text-accent text-sm tracking-[0.2em] uppercase mb-4">
-          BlueOC — Isaac Lab + PPO + FoundationPose
+          BlueOC 2026 — Isaac Lab + PPO + FoundationPose
         </motion.p>
         <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
           className="font-[var(--font-display)] text-5xl md:text-7xl leading-[1.1] mb-6">
